@@ -1,0 +1,39 @@
+{
+  "name": "ml-portal",
+  "version": "1.0.0",
+  "description": "Machine Learning and captioning portal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://vickylance@gitlab.com/vickylance/ml-portal.git"
+  },
+  "keywords": [
+    "ML",
+    "Machine",
+    "Learning",
+    "Caption"
+  ],
+  "author": "Vignesh.S, Prasanna",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.3",
+    "express-validators": "^1.0.4",
+    "multer": "^1.3.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-http": "^0.3.0",
+    "passport-instagram": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  }
+}
